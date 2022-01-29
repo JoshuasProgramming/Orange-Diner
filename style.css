@@ -250,3 +250,89 @@ button:active{
 }
   
   
+
+
+
+
+
+/*Register Form BEGINS*/
+.register-login-forms{
+    display:flex;
+}
+
+.register-container{
+    width:550px;
+    height:550px;
+    background:rgb(255, 193, 77);
+    margin:100px 130px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+.register-container-header, .login-container-header {
+    font-size:50px;
+}
+
+.register-input{
+    border:none;
+    border-bottom: 1px solid black;
+    text-align: center;
+    background: transparent;
+    font-size:30px;
+    margin:10px 15px;
+    outline:none;
+    font-family: 'Staatliches', cursive;
+    width:490px;
+    color:black;
+}
+
+.login-container{
+    width:550px;
+    height:550px;
+    background:ghostwhite;
+    margin:100px -90px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+.login-input{
+    border:none;
+    border-bottom: 1px solid black;
+    text-align: center;
+    background: transparent;
+    font-size:30px;
+    margin:10px 20px;
+    outline:none;
+    font-family: 'Staatliches', cursive;
+    width:490px;
+    color:black;
+    height:100px;
+}
+
+.register-container-btn{
+    width:140px;
+    height:70px;
+    background: black;
+    color: white;
+    margin:178px -689px;
+    border:none;
+    border-radius: 5px;
+    font-size:35px;
+
+}
+
+.login-container-btn{
+    width:140px;
+    height:70px;
+    background: black;
+    color: white;
+    margin:169px -93px;
+    border:none;
+    border-radius: 5px;
+    font-size:35px;
+
+}
+
+
+
+/*Register Form ENDS*/
