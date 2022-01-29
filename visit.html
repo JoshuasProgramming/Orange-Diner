@@ -7,26 +7,29 @@
     <link rel="stylesheet" href="style.css">
     <title>Orange Diner</title>
 </head>
-<body>
+<body class="top" id="landingPage">
+
     <!--- Section Header which contains a navigation bar-->
-    <section class="top" id="landingPage">
         <header>
             <p><a href="index.html" class="landing-direct">Orange Diner</a></p>
                 <ul class="navbar">
-                    <li><a href="visit.html">Visit</a></li>
+                    <li><a href="visit.html"><span class="active">Visit</span></a></li>
                     <li><a href="shopOnline.html">Shop online</a></li>
                     <li><a href="recipes.html">Recipes</a></li>
                     <li><a href="ourStory.html">Our Story</a></li>
                     <li><a href="#">Employment</a></li>
                 </ul>
         </header>
-        <h1 class="home-header"><span class="orange">Orange</span><br>Is What<br>We Do</h1>
-        <button><a href="#ourStory.html" class="let-me">Learn More</a></button>
-        <div class="arrow">
 
+    <!---Section will contain a google map api--->
+    <section class="visit-section" id="visit">
+        <!--map contains the Google map api information-->
+        <div id="map" style="width:490px; height:490px;" class="google-api">
         </div>
+       <h1 class="visit-section-header">Directions<span style="color:white"><br>24<br>Lorem ipsum</span></h1>
     </section>
-
-    <script src="script.js"></script>
+   
+   <script src="script.js"></script>
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2ZOOoY0T_Z-BXajRx1TgsNc3GJr9_aQw&callback=myMap"></script>
 </body>
 </html>

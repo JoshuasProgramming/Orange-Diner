@@ -221,7 +221,7 @@ button:active{
 }
 
 
-.card .add-to-cart2{
+.card .add-to-cart2 {
     border: none;
     outline: 0;
     padding: 12px;
@@ -233,6 +233,11 @@ button:active{
     font-size: 30px;
     margin:270px -425px;
     font-family: 'Staatliches', cursive;
+}
+
+.add-to-cart a, .add-to-cart2 a, .add-to-cart3 a{
+    text-decoration: none;
+    color:white;
 }
 
 .card .add-to-cart3{
@@ -336,3 +341,62 @@ button:active{
 
 
 /*Register Form ENDS*/
+
+
+
+/*About Section BEGINS*/
+.visit-section{
+    height:727px;
+}
+
+.visit-section-header{
+    position: absolute;
+    top:50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    color:rgb(255, 193, 77);
+    font-size: 120px;
+    font-family: 'Staatliches', cursive;
+    text-shadow: 10px 10px 19px black;
+    margin:0px 30px;
+}
+
+.google-api{
+    top:14%;
+    left:10%;
+    color:black;
+    font-size: 50px;
+    font-family: "Amatic SC", sans-serif;
+    margin:0px 10px;
+    text-shadow:5px 5px white;
+    border-radius: 15px;
+    box-shadow: 19px 19px 29px rgb(255, 193, 77);
+}
+
+.visit-section-para1{
+    margin:100px 850px;
+    font-size: 10px;
+}
+
+
+.about-text{
+    position: absolute;
+    top:63%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    color:rgb(0, 0, 0);
+    font-size: 35px;
+    font-family: 'Bangers', cursive;
+    margin:0px 30px;
+}
+
+.opening-times-text{
+    top:0%;
+    left:20%;
+    color:black;
+    font-size: 40px;
+    font-family: 'Bangers', cursive;
+    margin:120px 130px;
+    text-shadow: 5px 5px rgb(255, 255, 255);
+}
+/*About Section ENDS*/
