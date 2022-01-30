@@ -400,3 +400,49 @@ button:active{
     text-shadow: 5px 5px rgb(255, 255, 255);
 }
 /*About Section ENDS*/
+
+
+
+/* Employment page BEGINS */
+.employment-header-text, .our-story-header-text{
+    position: absolute;
+    top:30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:rgb(255, 193, 77);
+    font-size: 100px;
+    font-family: 'Staatliches', cursive;
+    text-shadow: 10px 10px 19px black;
+    margin:0px 30px;
+    text-align:center;
+}
+
+.white{
+    color:white;
+}
+
+.employment-underneath-header-text, .our-story-underneath-header-text{
+    position: absolute;
+    top:65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size: 40px;
+    font-family: 'Staatliches', cursive;
+    text-shadow: 1px 1px 9px black;
+    background: rgb(255, 193, 77);
+    border-radius: 10px;
+    margin:0px 30px;
+    text-align:center;
+}
+
+.employment-apply-now-btn{
+    width:180px;
+    height:70px;
+    background: black;
+    color: white;
+    margin:250px -373px;
+    border:none;
+    border-radius: 5px;
+    font-size:30px;
+}
