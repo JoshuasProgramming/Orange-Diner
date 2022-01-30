@@ -335,7 +335,16 @@ button:active{
     border:none;
     border-radius: 5px;
     font-size:35px;
+}
 
+.checkbox-register-btn, .checkbox-login-btn{
+    width:20px;
+    height:20px;
+    margin:0px 10px;
+}
+
+.show-password-register, .show-password-login{
+    font-size:20px;
 }
 
 
@@ -445,4 +454,30 @@ button:active{
     border:none;
     border-radius: 5px;
     font-size:30px;
+}
+
+.retry-signin-btn{
+    width:180px;
+    height:70px;
+    background: black;
+    color: white;
+    margin:250px -389px;
+    border:none;
+    border-radius: 5px;
+    font-size:30px;
+}
+
+
+/* Index.php styling */
+.index-home-header{
+    position: absolute;
+    top:54%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color:whitesmoke;
+    font-size: 160px;
+    font-family: 'Staatliches', cursive;
+    font-weight:bold;
+    margin:0px 1px;
+    text-shadow: 5px 5px 19px black;
 }

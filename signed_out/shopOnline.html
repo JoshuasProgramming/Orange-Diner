@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Orange Diner</title>
+</head>
+<body>
+    <!--- Section Header which contains a navigation bar-->
+    <section class="top" id="landingPage">
+        <header>
+            <p><a href="index.html" class="landing-direct">Orange Diner</a></p>
+                <ul class="navbar">
+                    <li><a href="visit.html">Visit</a></li>
+                    <li><a href="shopOnline.html"><span class="active">Shop online</span></a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="ourStory.html">Our Story</a></li>
+                    <li><a href="employment.html">Employment</a></li>
+                </ul>
+        </header>
+        <!--container for the register and login forms-->
+        <div class="register-login-forms">
+            <div class="register-container">
+                <form action="/website%203/includes/register.inc.php" method="post" autocomplete="off">
+                    <h2 class="register-container-header"><center>Register Here<center></h2>
+                    <input placeholder="first name" name="firstname" class="register-input" autocomplete="off" required><br>
+                    <input placeholder="last name" name="lastname" class="register-input" autocomplete="off" required><br>
+                    <input placeholder="email" name="email" class="register-input" type="email" autocomplete="off" required><br>
+                    <input placeholder="password" name="password" class="register-input" type="password" id="register_password" autocomplete="off" required><br>
+                    <input placeholder="confirm password" name="confirm_password" class="register-input" type="password" id="register_confirm_password" autocomplete="off" required>
+                    <button class="register-container-btn" name="submit" type="submit">Register</button>
+                    <input class="checkbox-register-btn" id="checkbox_register" type="checkbox">
+                    <label for="checkbox_register" class="show-password-register">Show Password</label>
+                </form>
+            </div>
+            <div class="login-container">
+                <form action="/website%203/includes/login.inc.php" method="post" autocomplete="off">
+                    <h2 class="login-container-header"><center>Login Here<center></h2>
+                    <input placeholder="email" name="email" class="login-input" type="email" autocomplete="off" required><br>
+                    <input placeholder="password" name="userPassword" class="login-input" type="password" id="login_password" autocomplete="off" required><br>
+                    <input class="checkbox-login-btn" id="checkbox_login" type="checkbox">
+                    <label for="checkbox_login" class="show-password-login">Show Password</label>
+                    <button class="login-container-btn" name="submit" type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="reveal password.js"></script>
+</body>
+</html>

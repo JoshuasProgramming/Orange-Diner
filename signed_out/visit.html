@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Orange Diner</title>
+</head>
+<body class="top" id="landingPage">
+
+    <!--- Section Header which contains a navigation bar-->
+        <header>
+            <p><a href="index.html" class="landing-direct">Orange Diner</a></p>
+                <ul class="navbar">
+                    <li><a href="visit.html"><span class="active">Visit</span></a></li>
+                    <li><a href="shopOnline.html">Shop online</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="ourStory.html">Our Story</a></li>
+                    <li><a href="employment.html">Employment</a></li>
+                </ul>
+        </header>
+
+    <!---Section will contain a google map api--->
+    <section class="visit-section" id="visit">
+        <!--map contains the Google map api information-->
+        <div id="map" style="width:490px; height:490px;" class="google-api">
+        </div>
+       <h1 class="visit-section-header">Directions<span style="color:white"><br>24<br>Lorem ipsum</span></h1>
+    </section>
+   
+   <script src="../script.js"></script>
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2ZOOoY0T_Z-BXajRx1TgsNc3GJr9_aQw&callback=myMap"></script>
+</body>
+</html>
