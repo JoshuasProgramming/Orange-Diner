@@ -21,7 +21,8 @@
         if($password == $confirm_passowrd){
             //check if email is already is use => if TRUE
             if(mysqli_num_rows($result_email) > 0){
-                echo "Sorry, the email of ".$email." already taken";
+                //echo "Sorry, the email of ".$email." already taken";
+                header("Location: /website%203/signed_out/alreadyTaken.html");
 
             //check if email is already is use => if FALSE
             } else if(mysqli_num_rows($result_email) == 0){
@@ -29,7 +30,8 @@
                 VALUES ('$firstname', '$lastname', '$email', '$password')";
 
                 if(mysqli_query($conn, $sql)){
-                    echo "sent to database ('users' table)";
+                    //echo "sent to database ('users' table)";
+                    header("Location: /website%203/signed_out/accountCreated.html");
                 } else {
                     echo "ERROR: Register data wasn't stored in the database ('users' table)";
                 }
@@ -37,7 +39,7 @@
             }
         //Check if passowrd is not equal the 'confirm_password'.
         } else if($password !== $confirm_passowrd){
-            echo "passwords don't match";
+            header("Location: /website%203/signed_out/passwordsDontMatch.html");
         }
     }
     

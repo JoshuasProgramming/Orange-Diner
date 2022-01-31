@@ -467,6 +467,28 @@ button:active{
     font-size:30px;
 }
 
+.update-account{
+    width:180px;
+    height:70px;
+    background: black;
+    color: white;
+    margin:250px -300px;
+    border:none;
+    border-radius: 5px;
+    font-size:30px;
+}
+
+.delete-account{
+    width:180px;
+    height:70px;
+    background: black;
+    color: white;
+    margin:250px -389px;
+    border:none;
+    border-radius: 5px;
+    font-size:30px;
+}
+
 
 /* Index.php styling */
 .index-home-header{
